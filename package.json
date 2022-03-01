@@ -4,18 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./createDocker.sh"
+    "test": "echo \"Error: no test specified\"",
+    "build": "./dockerfile/build.sh optuna-dashboard"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kube-HPC/tensorboard.git"
+    "url": "git+https://github.com/kube-HPC/optuna-dashboard.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kube-HPC/tensorboard/issues"
+    "url": "https://github.com/kube-HPC/optuna-dashboard/issues"
   },
-  "homepage": "https://github.com/kube-HPC/tensorboard#readme"
+  "homepage": "https://github.com/kube-HPC/optuna-dashboard#readme"
 }
